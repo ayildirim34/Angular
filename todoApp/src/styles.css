@@ -1,0 +1,19 @@
+body {
+    background-color: #f3f3f3;
+    padding: 50px 0;
+}
+.page {
+    .home {
+       .page-title {
+        span {
+
+        }
+       } 
+       .example-form {
+        .example-full-width {
+            width: 200%;
+            margin-right: 5;
+        }
+       }
+    }
+}

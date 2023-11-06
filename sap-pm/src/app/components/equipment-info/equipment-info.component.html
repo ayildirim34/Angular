@@ -1,0 +1,9 @@
+<div *ngIf="equipmentInfo">
+  <h2>Equipment Information</h2>
+  <p>Equipment ID: {{ equipmentInfo.equipmentId }}</p>
+  <p>Description: {{ equipmentInfo.description }}</p>
+
+  <h3>Create Maintenance Plan</h3>
+  <input [(ngModel)]="newMaintenancePlanDetail.planName" placeholder="Plan Name">
+  <button (click)="creataeMaintenancePlan()">Create Plan</button>
+</div>

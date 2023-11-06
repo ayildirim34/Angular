@@ -1,0 +1,18 @@
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>userId</th>
+            <th>id</th>
+            <th>title</th>
+            <th>body</th>
+        </tr>
+    </thead>
+    
+    <tr *ngFor = "let todo of todos">
+        <td>{{todo.userId}}</td>
+        <td>{{todo.id}}</td>
+        <td>{{todo.title}}</td>
+        <td>{{todo.body}}</td>
+    </tr>
+</table>
